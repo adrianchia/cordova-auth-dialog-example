@@ -16,6 +16,9 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+var ADFS = "https://adfs.example.com/adfs/ls/auth/integrated";
+
 var app = {
     // Application Constructor
     initialize: function() {
@@ -34,6 +37,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        var ref = cordova.InAppBrowser.open(ADFS, '_blank', 'location=yes');
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {

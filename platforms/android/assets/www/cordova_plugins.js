@@ -18,8 +18,8 @@ module.exports.metadata =
 // TOP OF METADATA
 {
     "cordova-plugin-whitelist": "1.0.1-dev",
-    "cordova-plugin-inappbrowser": "1.0.0",
-    "com.msopentech.authdialog": "0.1.0-dev"
+    "com.msopentech.authdialog": "0.1.0-dev",
+    "cordova-plugin-inappbrowser": "1.0.1-dev"
 }
 // BOTTOM OF METADATA
 });
